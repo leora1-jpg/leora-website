@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Logo by Leora</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom right, #ffe4f0, #fff0f5);
+      color: #333;
+    }
+
+    header {
+      background-color: #ffccdc;
+      padding: 30px 0;
+      text-align: center;
+      font-family: 'Pacifico', cursive;
+      font-size: 2.5rem;
+      color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ff6e91;
+      font-weight: 600;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff8fb;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+    }
+
+    h2 {
+      color: #ff6e91;
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin: 10px 0 5px;
+    }
+
+    input, textarea, select {
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px;
+      background-color: #ff6e91;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    button:hover {
+      background-color: #ff5a7c;
+    }
+
+    .footer {
+      text-align: center;
+      margin: 30px 0;
+      font-size: 0.9rem;
+    }
+
+    .footer a {
+      color: #ff6e91;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Logo by Leora
+  </header>
+
+  <nav>
+    <a href="#order">Order</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container" id="order">
+    <h2>Place Your Order</h2>
+<form
+  action="https://formspree.io/f/xyzpzbkr"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+  </div>
+
+  <div class="container" id="portfolio">
+    <h2>My Portfolio</h2>
+    <p style="text-align:center;">
+      <a href="https://www.upwork.com/freelancers/~014ae9d2b6d85b8300?p=1946210500441677824" target="_blank">
+        View my work on Upwork 💼
+      </a>
+    </p>
+  </div>
+
+  <div class="container" id="contact">
+    <h2>Contact Me</h2>
+    <p style="text-align:center;">Email: <a href="mailto:leorahavoc@gmail.com">leorahavoc@gmail.com</a></p>
+    <p style="text-align:center;">Instagram: 
+      <a href="https://www.instagram.com/logobyleora/" target="_blank">@logobyleora</a>
+    </p>
+  </div>
+
+  <div class="footer">
+    © 2025 Logo by Leora
+  </div>
+
+</body>
+</html>
